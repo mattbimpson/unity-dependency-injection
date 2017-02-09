@@ -14,7 +14,7 @@ Important: For controllers inheriting from 'Controller', use the Nuget package "
 
 GlobalConfiguration.Configuration.DependencyResolver = new Microsoft.Practices.Unity.WebApi.UnityDependencyResolver(container);
 
-After configuring the container manager, you can then register the types in code, or in the Web.Config like this;
+* After configuring the container manager, you can then register the types in code, or in the Web.Config like this;
 
 <unity xmlns="http://schemas.microsoft.com/practices/2010/unity">
     <container>
@@ -22,8 +22,8 @@ After configuring the container manager, you can then register the types in code
     </container>
  </unity>
 
-The following line should also be placed at the top of the config file, in <configSections> to show we are using unity;
+* The following line should also be placed at the top of the config file, in <configSections> to show we are using unity;
 
 <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
  
- All should be working now, simply inject your dependency in a constructor (as in HomeController.cs).
+ * All should be working now, simply inject your dependency in a constructor (as in HomeController.cs).
