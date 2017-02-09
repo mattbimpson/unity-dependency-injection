@@ -21,5 +21,9 @@ After configuring the container manager, you can then register the types in code
       <register type="BusinessObjects.IService, BusinessObjects" mapTo="Services.MyService, Services" />
     </container>
  </unity>
+
+The following line should also be placed at the top of the config file, in <configSections> to show we are using unity;
+
+<section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
  
  All should be working now, simply inject your dependency in a constructor (as in HomeController.cs).
