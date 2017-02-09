@@ -16,7 +16,7 @@ DependencyResolver.SetResolver(new UnityDependencyResolver(container));
 ```
 
 
-Important: For controllers inheriting from 'Controller', use the Nuget package "Unity.Mvc3". For controllers inheriting from 'ApiController', use the "Unity" package (v4) and use the following line of code to set the dependency resolver:
+**Important:** For controllers inheriting from 'Controller', use the Nuget package "Unity.Mvc3". For controllers inheriting from 'ApiController', use the "Unity" package (v4) and use the following line of code to set the dependency resolver:
 
 
 ```
