@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{BA29D430-6E81-4B06-B9A1-91BB1D0616B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{F04126D4-4B94-41ED-8E0C-5D6B8F243FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D09682A5-8F9A-47D8-BDB9-600A57986FB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA29D430-6E81-4B06-B9A1-91BB1D0616B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA29D430-6E81-4B06-B9A1-91BB1D0616B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA29D430-6E81-4B06-B9A1-91BB1D0616B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA29D430-6E81-4B06-B9A1-91BB1D0616B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04126D4-4B94-41ED-8E0C-5D6B8F243FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04126D4-4B94-41ED-8E0C-5D6B8F243FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04126D4-4B94-41ED-8E0C-5D6B8F243FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04126D4-4B94-41ED-8E0C-5D6B8F243FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09682A5-8F9A-47D8-BDB9-600A57986FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09682A5-8F9A-47D8-BDB9-600A57986FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09682A5-8F9A-47D8-BDB9-600A57986FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09682A5-8F9A-47D8-BDB9-600A57986FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
